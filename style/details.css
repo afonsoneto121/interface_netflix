@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {    
+    display: flex;
+    align-items: center;
+}
+
+.capaprincipal {
+    height: 500px;
+    width: 70%;
+    padding: 20px;
+
+}
+.capaprincipal img {
+    height: 100%;
+    width: 100%;
+}
+.details {
+    height: 500px;
+    width: 30%;
+    padding: 5px;
+
+    display: flex;    
+    flex-direction: column;   
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.details h2 {
+    font-size: 28px;
+}
+.details .rowdata {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#providers {
+    
+    
+}
+.rowdata span {
+    padding: 15px;
+}
+.sep {
+    width: 100%;
+    margin: 5px;
+    border: white 0.005rem solid;
+    margin-bottom: 7px;
+}
+
+.genres {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}

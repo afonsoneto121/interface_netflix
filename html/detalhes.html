@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/details.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+    <!-- imports owl css -->
+    <link rel="stylesheet" href="../style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../style/owl/owl.theme.default.min.css">
+    <title>Detalhes</title>
+</head>
+<body>
+    <header>
+        <header>
+            <div class="container">
+                <h2 class="logo">NETFLIX</h2>
+                <nav>
+                    <a href="../index.html">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documentários</a>
+                </nav>
+            </div>
+        </header>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="details">
+                <h2 id="nome">Nome do Filme</h2>
+                <div class="rowdata">
+                    <span id="status">status </span>
+                    <span id="data_lan" >Lançamento </span>                    
+                </div>
+                <div class="sep"></div>
+                <span id="votos">votos </span>
+                <div class="genres">
+                    <span id="genero">Gêneros </span>
+                </div>
+                <p id="descricao"> - </p>
+            </div>
+            <div class="capaprincipal">
+                <img id="img_capa" src="../img/tenor.gif" >
+            </div>
+        </div>
+    </main>
+    <div class="separador">
+        <h2>Você também pode gostar</h2> 
+    </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme" id="carousel-owl-recom">     
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4d4ebf26d7.js" crossorigin="anonymous"></script>
+
+    <script src="../js/owl/jquery.min.js"></script>
+    <script src="../js/owl/owl.carousel.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script type="module" src="../js/movie/details.js"></script>
+</body>
+</html>

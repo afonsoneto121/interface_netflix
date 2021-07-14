@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import CSS  -->
+    <link rel="stylesheet" href="/style/main.css">   
+    <link rel="stylesheet" href="/style/responsive.css">
+
+
+    <title>Inicio</title>
+    <!-- imports owl css -->
+    
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            
+            <nav>
+                <div class="searchBox">
+                    <input type="text" class="input_search" name="movie" placeholder="Pesquisar" id="text_search">
+                    <button class="button" id="bnt_search"><i class="fas fa-search fa-lg"></i> </button>
+                </div>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo" id="titulo">-</h3>
+                <p class="descricao" id="descricao"> -
+                </p>
+                <div class="botoes">
+                    <button class="botao" role="button">
+                        <i class="fas fa-play"></i> 
+                        ASSISTIR AGORA
+                    </button>
+                    <button class="botao" role="button" id="botaoDetalhes">
+                        <i class="fas fa-info-circle"></i></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="separador">
+         <h2>Destaques</h2> 
+    </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme" id="carousel-owl">     
+            
+        </div>
+    </div>
+    
+    <div class="separador">
+        <h2>Veja Também</h2> 
+    </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme" id="carousel-owl-other">     
+            
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4d4ebf26d7.js" crossorigin="anonymous"></script>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
